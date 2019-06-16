@@ -9,7 +9,7 @@ This project implements **[Bahdanau Attention](https://arxiv.org/pdf/1409.0473.p
 - Produce a guiding documentation for comprehending:
     - Implementations of Keras recurrent cells.
     - Custom Keras cell implementation.
-    - Intuition behind the proposed Bahdanau Mechanims implementation.
+    - Intuition behind the proposed Bahdanau Mechanism implementation.
 
 # References
 [1] [NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://arxiv.org/pdf/1409.0473.pdf)
