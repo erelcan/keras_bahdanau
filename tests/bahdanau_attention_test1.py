@@ -59,7 +59,7 @@ model.add(TimeDistributed(Dense(n_features, activation='softmax')))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['acc'])
 model.summary()
 # train LSTM
-for epoch in range(1):
+for epoch in range(5000):
     # generate new random sequence
     X,y = get_pair(n_timesteps_in, n_timesteps_out, n_features)
     # fit model for one epoch on this sequence
